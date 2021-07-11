@@ -1,0 +1,5 @@
+{
+    "editor.maxTokenizationLineLength": 120,
+    "dart.lineLength": 120,
+    "dart.maxLogLineLength": 120
+}
