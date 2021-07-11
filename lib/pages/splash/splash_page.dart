@@ -9,13 +9,11 @@ class SplashPage extends GetView<SplashPageController> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async => false,
-      child: Obx(() {
-        return Scaffold(
-          body: Center(
-            child: AppTextDefaultStyles.standard(text: "Splash Page"),
-          ),
-        );
-      }),
+      child: Scaffold(
+        body: Center(
+          child: AppTextDefaultStyles.standard(text: "Splash Page"),
+        ),
+      ),
     );
   }
 }

@@ -8,12 +8,12 @@ import 'package:default_app/layout/themes/app_themes.dart';
 import 'package:get/get.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle(statusBarColor: Colors.transparent),
   );
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   Get.changeTheme(ThemeData.light());
-  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 
