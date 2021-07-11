@@ -6,9 +6,12 @@ class AppColors {
 
   Color get primaryColor => Color(0xFFF02B3C);
 
+  Color get grayScale_1 => Color(0xffF2F2F2);
+
   List<Map<String, Color>> get namedColors => [
         {'black': black},
         {'white': white},
         {'primaryColor': primaryColor},
+        {'grayScale_1': grayScale_1},
       ];
 }

@@ -1,16 +1,15 @@
-# default_app
+# Default App
 
-A new Flutter project.
+A Flutter App that uses a few packages to start a project without having to spend a lot of time at start.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Please, when you will use this project, remember to change the project name in all files using (replace all tool), and ```pubspec.yaml``` too.
 
-A few resources to get you started if this is your first Flutter project:
+### Example
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```import 'package:```**default_app**```/.../test.dart';```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```to```
+
+```import 'package:```**name_of_your_app**```/.../test.dart';```
