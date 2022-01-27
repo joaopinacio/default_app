@@ -25,6 +25,13 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: Size(360, 690),
       builder: () => GetMaterialApp(
+        builder: (context, widget) {
+          ScreenUtil.setContext(context);
+          return MediaQuery(
+            data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
+            child: widget!,
+          );
+        },
         debugShowCheckedModeBanner: false,
         enableLog: true,
         locale: TranslationService.locale,
